@@ -1,5 +1,5 @@
-## Hello friend, i've no idea what this functions do. I just copied this function from internet.
-## But I wanna learn this function in future. Thanks
+## makeCacheMatrix function basically generates a special matrix with a list of methods
+## and it cached inverse matrix
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
   set <- function(y) {
